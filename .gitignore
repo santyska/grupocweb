@@ -1,0 +1,6 @@
+.env
+*.token
+cf_token
+*.zip
+.DS_Store
+Thumbs.db
