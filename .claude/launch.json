@@ -1,0 +1,7 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    { "name": "css", "runtimeExecutable": "python", "runtimeArgs": ["herramientas/servidor_css.py"], "port": 5180 },
+    { "name": "sitio", "runtimeExecutable": "python", "runtimeArgs": ["-m", "http.server", "5175", "--directory", "sitio"], "port": 5175 }
+  ]
+}

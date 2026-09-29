@@ -13,10 +13,11 @@ Dominio a conectar: grupocpiletas.com.ar
 
 ## Cómo actualizar
 
-- **Cambios de texto, fotos o links:** editá `sitio/index.html` y hacé el mismo
-  cambio en `desarrollo/index.html` para que queden iguales.
-- **Cambios de diseño con clases de Tailwind nuevas:** hacelos en `desarrollo/`
-  y después hay que regenerar `sitio/styles.css`.
+Todos los cambios se hacen en `desarrollo/index.html`. Después:
+
+1. `python herramientas/build.py` → genera `sitio/index.html`.
+2. Solo si agregaste clases de Tailwind nuevas: regenerar `sitio/styles.css` con
+   `python herramientas/servidor_css.py` (las instrucciones están en el archivo).
 
 ## Cómo publicar
 
@@ -34,6 +35,7 @@ CLOUDFLARE_API_TOKEN=xxxx python herramientas/deploy.py sitio
 ## Datos a mano
 
 - WhatsApp: constante `WA_NUMBER` al final del HTML (5491130446269).
+- Llamadas: links `tel:+5491130446269` (atributo `data-call`).
 - Medición de consultas: script `ads-ia-garfar.vercel.app/m.js` antes de `</body>`.
 - Fotos de stock a reemplazar por fotos propias: buscar `REEMPLAZAR FOTO`.
 - Marca: navy #0F2A3D · teal #2AA7A0 · crema #F7F5EF · Fraunces + Manrope.
