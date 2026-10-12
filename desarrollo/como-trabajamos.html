@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="es-AR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Cómo trabajamos | Grupo C Piletas</title>
+  <meta name="description" content="Cómo construimos tu pileta de hormigón armado: consulta, visita técnica sin cargo, presupuesto cerrado con cronograma por escrito, obra con avances semanales y entrega con garantía firmada.">
+  <link rel="canonical" href="https://grupocpiletas.com.ar/como-trabajamos">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="es_AR">
+  <meta property="og:url" content="https://grupocpiletas.com.ar/como-trabajamos">
+  <meta property="og:title" content="Cómo trabajamos | Grupo C Piletas">
+  <meta property="og:description" content="Cómo construimos tu pileta de hormigón armado: consulta, visita técnica sin cargo, presupuesto cerrado con cronograma por escrito, obra con avances semanales y entrega con garantía firmada.">
+  <!-- REEMPLAZAR FOTO: imagen para compartir en WhatsApp/redes (1200x630) -->
+  <meta property="og:image" content="https://images.unsplash.com/photo-1613490493576-7fde63acd811?auto=format&fit=crop&w=1200&h=630&q=75">
+  <meta name="theme-color" content="#0A1F2E">
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%230F2A3D'/%3E%3Cpath d='M47 18A20 20 0 1 0 47 46' fill='none' stroke='%232AA7A0' stroke-width='6' stroke-linecap='round'/%3E%3Cpath d='M24 33.5c2.7-4 5.3-4 8 0s5.3 4 8 0' fill='none' stroke='%23F7F5EF' stroke-width='3.6' stroke-linecap='round'/%3E%3C/svg%3E">
+
+  <!--
+    ============================================================
+    CONFIGURACIÓN RÁPIDA — reemplazar antes de publicar
+    ------------------------------------------------------------
+    1) WHATSAPP: el número está en la constante WA_NUMBER del <script> final
+       (formato internacional sin + ni 15) y visible en el footer.
+    2) FOTOS: buscá "REEMPLAZAR FOTO" — son imágenes de stock de Unsplash.
+    3) NÚMEROS DE CONFIANZA: buscá "REEMPLAZAR DATO".
+    4) TESTIMONIOS: buscá "TESTIMONIOS".
+    5) PRODUCCIÓN: el CDN de Tailwind es para prototipo. Para Google Ads
+       (velocidad = Quality Score), compilá el CSS con Tailwind CLI.
+    ============================================================
+  -->
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,600;0,9..144,700;1,9..144,600&family=Manrope:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  <style type="text/tailwindcss">
+    @theme {
+      --font-sans: "Manrope", ui-sans-serif, system-ui, sans-serif;
+      --font-display: "Fraunces", Georgia, serif;
+
+      /* Paleta de marca (manual de logo): navy #0F2A3D · teal #2AA7A0 · crema #F7F5EF */
+      --color-ink: #0A1F2E;        /* fondo principal: navy de marca, un tono más profundo */
+      --color-concrete: #0F2A3D;   /* navy de marca: secciones alternas */
+      --color-slab: #143449;       /* tarjetas */
+      --color-line: #1F4258;       /* bordes */
+      --color-stone: #F7F5EF;      /* crema de marca: texto principal */
+      --color-mist: #A3B5C0;       /* texto secundario (contraste AA sobre ink) */
+      --color-aqua: #2AA7A0;       /* teal de marca: acento / CTA */
+      --color-wa: #25D366;         /* verde WhatsApp: solo botón flotante */
+    }
+    html { scroll-behavior: smooth; scroll-padding-top: 5rem; }
+    body { -webkit-font-smoothing: antialiased; }
+    :focus-visible { outline: 2px solid var(--color-aqua); outline-offset: 3px; border-radius: 6px; }
+    .reveal { opacity: 0; transform: translateY(16px); transition: opacity .6s ease, transform .6s ease; }
+    .reveal.is-in { opacity: 1; transform: none; }
+    @media (prefers-reduced-motion: reduce) {
+      html { scroll-behavior: auto; }
+      .reveal { opacity: 1; transform: none; transition: none; }
+    }
+    details > summary { list-style: none; }
+    details > summary::-webkit-details-marker { display: none; }
+    details[open] .faq-icon { transform: rotate(45deg); }
+    [data-header] { border-bottom: 1px solid transparent; }
+    [data-header][data-scrolled] { background: rgb(10 31 46 / .9); backdrop-filter: blur(8px); -webkit-backdrop-filter: blur(8px); border-bottom-color: var(--color-line); }
+  </style>
+</head>
+
+<body class="bg-ink text-stone font-sans leading-relaxed">
+
+  <!-- Ícono WhatsApp reutilizable -->
+  <svg width="0" height="0" class="absolute" aria-hidden="true">
+    <symbol id="i-wa" viewBox="0 0 24 24"><path fill="currentColor" d="M17.47 14.38c-.3-.15-1.76-.87-2.03-.97-.27-.1-.47-.15-.67.15-.2.3-.77.97-.94 1.17-.17.2-.35.22-.64.07-.3-.15-1.26-.46-2.39-1.47-.88-.79-1.48-1.76-1.65-2.06-.17-.3-.02-.46.13-.6.13-.14.3-.35.45-.52.15-.17.2-.3.3-.5.1-.2.05-.37-.03-.52-.07-.15-.67-1.61-.92-2.21-.24-.58-.49-.5-.67-.51h-.57c-.2 0-.52.07-.79.37-.27.3-1.04 1.02-1.04 2.48 0 1.46 1.07 2.88 1.21 3.07.15.2 2.1 3.2 5.08 4.49.71.31 1.26.49 1.69.63.71.23 1.36.19 1.87.12.57-.09 1.76-.72 2.01-1.41.25-.7.25-1.29.17-1.41-.07-.13-.27-.2-.57-.35M12.05 21.5h-.01a9.4 9.4 0 0 1-4.8-1.31l-.34-.2-3.57.93.95-3.48-.22-.36a9.41 9.41 0 0 1-1.44-5.02c0-5.2 4.23-9.43 9.44-9.43a9.4 9.4 0 0 1 6.67 2.77 9.37 9.37 0 0 1 2.76 6.67c0 5.2-4.24 9.43-9.44 9.43m8.03-17.46A11.3 11.3 0 0 0 12.05.72C5.8.72.7 5.8.7 12.07c0 2 .52 3.95 1.52 5.67L.6 23.6l6-1.57a11.3 11.3 0 0 0 5.43 1.38h.01c6.26 0 11.35-5.09 11.35-11.35 0-3.03-1.18-5.88-3.32-8.02"/></symbol>
+    <symbol id="i-tel" viewBox="0 0 24 24"><path fill="currentColor" d="M6.62 10.79a15.05 15.05 0 0 0 6.59 6.59l2.2-2.2a1 1 0 0 1 1.02-.24 11.4 11.4 0 0 0 3.57.57 1 1 0 0 1 1 1V20a1 1 0 0 1-1 1A17 17 0 0 1 3 4a1 1 0 0 1 1-1h3.5a1 1 0 0 1 1 1c0 1.25.2 2.45.57 3.57a1 1 0 0 1-.25 1.02l-2.2 2.2Z"/></symbol>
+  </svg>
+
+  <!-- ===================== HEADER ===================== -->
+  <header id="top" class="fixed inset-x-0 top-0 z-40 transition-colors duration-300" data-header>
+    <div class="mx-auto flex h-16 max-w-7xl items-center justify-between px-4 sm:px-6 lg:h-20 lg:px-8">
+      <a href="/" class="flex items-center gap-2.5" aria-label="Grupo C Piletas, inicio">
+        <!-- Reemplazar por logo real (SVG) cuando esté disponible -->
+<svg class="h-9 w-9 shrink-0" viewBox="0 0 64 64" fill="none" stroke-linecap="round" aria-hidden="true"><path d="M50.4 13.6A26 26 0 1 0 50.4 50.4" stroke="var(--color-aqua)" stroke-width="6"/><path d="M21 33.5c3.7-5 7.3-5 11 0s7.3 5 11 0" stroke="var(--color-stone)" stroke-width="3.6"/></svg>
+        <span class="leading-none"><span class="block font-display text-[17px] font-bold tracking-tight">GRUPO C</span><span class="mt-1 block text-[10px] font-semibold tracking-[0.32em] text-aqua">PILETAS</span></span>
+      </a>
+      <nav class="hidden items-center gap-8 text-sm text-mist lg:flex" aria-label="Principal">
+        <a href="/#diferenciales" class="transition-colors hover:text-stone">Por qué elegirnos</a>
+        <a href="/como-trabajamos" class="transition-colors hover:text-stone">Cómo trabajamos</a>
+        <a href="/#obras" class="transition-colors hover:text-stone">Obras</a>
+        <a href="/preguntas-frecuentes" class="transition-colors hover:text-stone">Preguntas</a>
+      </nav>
+      <div class="flex items-center gap-2">
+        <a href="tel:+5491130446269" data-call aria-label="Llamar al 11 3044-6269" class="inline-flex min-h-11 min-w-11 items-center justify-center gap-2 rounded-full border border-stone/25 px-3 text-sm font-semibold text-stone transition hover:border-stone/60 hover:bg-stone/5">
+          <svg class="h-4 w-4" aria-hidden="true"><use href="#i-tel"/></svg>
+          <span class="hidden md:inline">11 3044-6269</span>
+        </a>
+        <a href="#" data-wa data-wa-msg="Hola Grupo C, quiero consultar por una pileta de hormigón." class="inline-flex min-h-11 items-center gap-2 rounded-full bg-aqua px-4 text-sm font-semibold text-ink transition hover:bg-stone">
+          <svg class="h-4 w-4" aria-hidden="true"><use href="#i-wa"/></svg>
+          <span><span class="hidden sm:inline">Consultar por </span>WhatsApp</span>
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- Contenido de /como-trabajamos. Solo textos que ya figuran en la home:
+         no sumar cifras, plazos ni promesas que no estén confirmados. -->
+
+    <!-- ===================== INTRO ===================== -->
+    <section class="pb-14 pt-28 sm:pb-20">
+      <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+        <div class="max-w-3xl">
+          <p class="text-sm font-semibold uppercase tracking-[0.16em] text-aqua">Cómo trabajamos</p>
+          <h1 class="mt-3 font-display text-[2.6rem] font-semibold leading-[1.05] tracking-tight sm:text-6xl">Sabés qué pasa en cada etapa, y cuándo termina.</h1>
+          <p class="mt-6 max-w-xl text-base text-stone/80 sm:text-lg">Antes de empezar firmás un cronograma con fechas por etapa. Si algo cambia, te enterás por nosotros, no preguntando.</p>
+          <div class="mt-8 flex flex-col gap-3 sm:flex-row sm:items-center">
+            <a href="#" data-wa data-hero-cta data-wa-msg="Hola Grupo C, quiero coordinar una visita técnica para una pileta de hormigón." class="group inline-flex min-h-14 items-center justify-center gap-3 rounded-full bg-aqua px-7 text-base font-semibold text-ink shadow-[0_10px_40px_-10px] shadow-aqua/60 transition hover:bg-stone">
+              <svg class="h-5 w-5" aria-hidden="true"><use href="#i-wa"/></svg>
+              Coordinar la visita por WhatsApp
+            </a>
+            <a href="tel:+5491130446269" data-call class="inline-flex min-h-14 items-center justify-center gap-3 rounded-full border border-stone/25 px-7 text-base font-medium text-stone transition hover:border-stone/60 hover:bg-stone/5">
+              <svg class="h-5 w-5" aria-hidden="true"><use href="#i-tel"/></svg>
+              Llamar: 11 3044-6269
+            </a>
+          </div>
+          <ul class="mt-7 flex flex-wrap gap-x-5 gap-y-2 text-sm text-mist">
+            <li class="flex items-center gap-1.5"><svg class="h-4 w-4 text-aqua" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><path d="m5 12 5 5L20 7"/></svg>Visita técnica sin cargo</li>
+            <li class="flex items-center gap-1.5"><svg class="h-4 w-4 text-aqua" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><path d="m5 12 5 5L20 7"/></svg>Respuesta en el día</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== ETAPAS ===================== -->
+    <section id="etapas" class="border-y border-line bg-concrete py-20 sm:py-28">
+      <div class="mx-auto grid max-w-7xl gap-12 px-4 sm:px-6 lg:grid-cols-12 lg:gap-16 lg:px-8">
+        <div class="reveal lg:col-span-5">
+          <p class="text-sm font-semibold uppercase tracking-[0.16em] text-aqua">Las etapas</p>
+          <h2 class="mt-3 font-display text-3xl font-semibold leading-tight sm:text-5xl">De la consulta a la entrega, con el mismo equipo.</h2>
+          <p class="mt-4 text-mist sm:text-lg">Proyecto, cálculo estructural, obra y terminación con el mismo equipo. Hablás directo con el responsable técnico, no con un vendedor.</p>
+        </div>
+
+        <ol class="relative lg:col-span-7">
+          <span class="absolute bottom-6 left-[19px] top-6 w-px bg-line" aria-hidden="true"></span>
+
+          <li class="reveal relative flex gap-5 pb-10">
+            <span class="relative z-10 grid h-10 w-10 shrink-0 place-items-center rounded-full border border-aqua/50 bg-ink font-semibold tabular-nums text-aqua">1</span>
+            <div class="pt-1.5">
+              <div class="flex flex-wrap items-baseline gap-x-3"><h3 class="text-lg font-semibold">Consulta</h3><span class="text-sm text-mist">mismo día</span></div>
+              <p class="mt-1.5 text-[15px] text-mist">Nos escribís por WhatsApp con la zona y la idea. Te respondemos con preguntas concretas y coordinamos la visita.</p>
+            </div>
+          </li>
+          <li class="reveal relative flex gap-5 pb-10">
+            <span class="relative z-10 grid h-10 w-10 shrink-0 place-items-center rounded-full border border-aqua/50 bg-ink font-semibold tabular-nums text-aqua">2</span>
+            <div class="pt-1.5">
+              <div class="flex flex-wrap items-baseline gap-x-3"><h3 class="text-lg font-semibold">Visita técnica</h3><span class="text-sm text-mist">sin cargo</span></div>
+              <p class="mt-1.5 text-[15px] text-mist">El responsable técnico va al terreno: mide, revisa suelo, desniveles, accesos para máquinas y normativa del barrio.</p>
+            </div>
+          </li>
+          <li class="reveal relative flex gap-5 pb-10">
+            <span class="relative z-10 grid h-10 w-10 shrink-0 place-items-center rounded-full border border-aqua/50 bg-ink font-semibold tabular-nums text-aqua">3</span>
+            <div class="pt-1.5">
+              <div class="flex flex-wrap items-baseline gap-x-3"><h3 class="text-lg font-semibold">Presupuesto y cronograma</h3><span class="text-sm text-mist">por escrito</span></div>
+              <p class="mt-1.5 text-[15px] text-mist">Presupuesto cerrado y detallado, con plano, especificaciones de hormigón y fechas de cada etapa.</p>
+            </div>
+          </li>
+          <li class="reveal relative flex gap-5 pb-10">
+            <span class="relative z-10 grid h-10 w-10 shrink-0 place-items-center rounded-full border border-aqua/50 bg-ink font-semibold tabular-nums text-aqua">4</span>
+            <div class="pt-1.5">
+              <!-- REEMPLAZAR DATO: plazo típico real de obra (mismo dato que la home) -->
+              <div class="flex flex-wrap items-baseline gap-x-3"><h3 class="text-lg font-semibold">Obra</h3><span class="text-sm text-mist">6 a 8 semanas promedio</span></div>
+              <p class="mt-1.5 text-[15px] text-mist">Excavación, armadura, hormigonado, impermeabilización e instalaciones. Te mandamos avances con fotos cada semana.</p>
+            </div>
+          </li>
+          <li class="reveal relative flex gap-5">
+            <span class="relative z-10 grid h-10 w-10 shrink-0 place-items-center rounded-full bg-aqua font-semibold tabular-nums text-ink">5</span>
+            <div class="pt-1.5">
+              <div class="flex flex-wrap items-baseline gap-x-3"><h3 class="text-lg font-semibold">Entrega</h3><span class="text-sm text-mist">con garantía firmada</span></div>
+              <p class="mt-1.5 text-[15px] text-mist">Llenado, puesta en marcha del equipo de filtrado, explicación de mantenimiento y entrega de la garantía escrita.</p>
+            </div>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- ===================== QUÉ INCLUYE ===================== -->
+    <section id="que-incluye" class="py-20 sm:py-28">
+      <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+        <div class="reveal max-w-2xl">
+          <p class="text-sm font-semibold uppercase tracking-[0.16em] text-aqua">Qué incluye</p>
+          <h2 class="mt-3 font-display text-3xl font-semibold leading-tight sm:text-5xl">Una pileta es una obra estructural. La tratamos como tal.</h2>
+          <p class="mt-4 text-mist sm:text-lg">Sin intermediarios ni subcontratos encadenados: un solo equipo responde por todo, de la excavación al primer chapuzón.</p>
+        </div>
+
+        <div class="mt-12 grid gap-px overflow-hidden rounded-2xl border border-line bg-line sm:grid-cols-2 lg:grid-cols-3">
+          <article class="reveal bg-ink p-7 sm:p-8">
+            <svg class="h-7 w-7 text-aqua" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 21h18M5 21V10l7-5 7 5v11M9 21v-6h6v6"/></svg>
+            <h3 class="mt-5 text-lg font-semibold">Obra llave en mano</h3>
+            <p class="mt-2 text-[15px] text-mist">Proyecto, cálculo estructural, construcción y terminación con el mismo equipo. Un solo responsable, un solo contrato.</p>
+          </article>
+          <article class="reveal bg-ink p-7 sm:p-8">
+            <svg class="h-7 w-7 text-aqua" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3 4 6v6c0 4.5 3.4 8.3 8 9 4.6-.7 8-4.5 8-9V6l-8-3Z"/><path d="m9 12 2 2 4-4"/></svg>
+            <h3 class="mt-5 text-lg font-semibold">Garantía escrita</h3>
+            <p class="mt-2 text-[15px] text-mist">Hormigón armado con garantía por contrato sobre estructura e impermeabilización. Lo que prometemos, lo firmamos.</p>
+          </article>
+          <article class="reveal bg-ink p-7 sm:p-8">
+            <svg class="h-7 w-7 text-aqua" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="4" width="18" height="17" rx="2"/><path d="M3 9h18M8 2v4M16 2v4"/><path d="m9 15 2 2 4-4"/></svg>
+            <h3 class="mt-5 text-lg font-semibold">Plazos que se cumplen</h3>
+            <p class="mt-2 text-[15px] text-mist">Cronograma de obra por etapas desde el día uno y avances semanales. Nada de obras eternas ni pozos abiertos durante meses.</p>
+          </article>
+          <article class="reveal bg-ink p-7 sm:p-8">
+            <svg class="h-7 w-7 text-aqua" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 21s-7-5.5-7-11a7 7 0 0 1 14 0c0 5.5-7 11-7 11Z"/><circle cx="12" cy="10" r="2.5"/></svg>
+            <h3 class="mt-5 text-lg font-semibold">Presupuesto con visita técnica</h3>
+            <p class="mt-2 text-[15px] text-mist">Vamos al terreno sin cargo, medimos, evaluamos accesos y suelo, y te damos un presupuesto cerrado, no un número tirado por teléfono.</p>
+          </article>
+          <article class="reveal bg-ink p-7 sm:p-8">
+            <svg class="h-7 w-7 text-aqua" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="8" r="4"/><path d="M4 21a8 8 0 0 1 16 0"/></svg>
+            <h3 class="mt-5 text-lg font-semibold">Hablás con el dueño</h3>
+            <p class="mt-2 text-[15px] text-mist">Atención directa del responsable técnico durante toda la obra. Sin vendedores, sin intermediarios, sin teléfono descompuesto.</p>
+          </article>
+          <article class="reveal bg-ink p-7 sm:p-8">
+            <svg class="h-7 w-7 text-aqua" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M2 20h20"/><path d="M2 20 8 11l4 5 3-4 7 8"/><path d="M4 7h4M16 5h4"/></svg>
+            <h3 class="mt-5 text-lg font-semibold">Suelos y desniveles difíciles</h3>
+            <p class="mt-2 text-[15px] text-mist">Experiencia en terrenos con napa alta, rellenos y desniveles, habituales en countries de zona norte. El cálculo se hace para <em>tu</em> suelo.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== PAGOS Y CIERRE ===================== -->
+    <section class="border-t border-line bg-concrete py-20 sm:py-28">
+      <div class="mx-auto max-w-3xl px-4 text-center sm:px-6 lg:px-8">
+        <p class="reveal text-sm font-semibold uppercase tracking-[0.16em] text-aqua">Pagos</p>
+        <h2 class="reveal mt-3 font-display text-3xl font-semibold leading-tight sm:text-5xl">Pagás según el avance de la obra.</h2>
+        <p class="reveal mt-4 text-mist sm:text-lg">Trabajamos con un anticipo y pagos atados al avance de cada etapa de obra, así nunca pagás por algo que todavía no está hecho. Consultanos por planes en cuotas según el proyecto.</p>
+        <div class="mt-10 flex flex-col items-center justify-center gap-3 sm:flex-row">
+          <a href="#" data-wa data-wa-msg="Hola Grupo C, quiero coordinar una visita técnica para una pileta de hormigón." class="inline-flex min-h-12 items-center gap-2 rounded-full bg-aqua px-6 text-sm font-semibold text-ink transition hover:bg-stone">
+            <svg class="h-4 w-4" aria-hidden="true"><use href="#i-wa"/></svg>
+            Coordinar la visita técnica
+          </a>
+          <a href="/preguntas-frecuentes" class="inline-flex min-h-12 items-center gap-2 rounded-full border border-aqua/50 px-6 text-sm font-semibold text-aqua transition hover:bg-aqua hover:text-ink">
+            Ver preguntas frecuentes
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ===================== 9. FOOTER ===================== -->
+  <footer class="border-t border-line pb-28 pt-14 sm:pb-14">
+    <div class="mx-auto grid max-w-7xl gap-10 px-4 sm:px-6 md:grid-cols-3 lg:px-8">
+      <div>
+        <div class="flex items-center gap-2.5">
+<svg class="h-11 w-11 shrink-0" viewBox="0 0 64 64" fill="none" stroke-linecap="round" aria-hidden="true"><path d="M50.4 13.6A26 26 0 1 0 50.4 50.4" stroke="var(--color-aqua)" stroke-width="6"/><path d="M21 33.5c3.7-5 7.3-5 11 0s7.3 5 11 0" stroke="var(--color-stone)" stroke-width="3.6"/></svg>
+          <span class="leading-none"><span class="block font-display text-xl font-bold tracking-tight">GRUPO C</span><span class="mt-1 block text-[10px] font-semibold tracking-[0.32em] text-aqua">PILETAS</span></span>
+        </div>
+        <p class="mt-4 max-w-xs text-sm text-mist">Construcción de piletas de hormigón armado llave en mano en Buenos Aires.</p>
+        <ul class="mt-4 space-y-2 text-sm text-mist">
+          <li><a href="/como-trabajamos" class="transition-colors hover:text-stone">Cómo trabajamos</a></li>
+          <li><a href="/preguntas-frecuentes" class="transition-colors hover:text-stone">Preguntas frecuentes</a></li>
+        </ul>
+      </div>
+      <div class="text-sm">
+        <h2 class="font-semibold">Contacto</h2>
+        <!-- REEMPLAZAR DATO: teléfono, email y horario reales -->
+        <ul class="mt-3 space-y-2 text-mist">
+          <li><a href="tel:+5491130446269" data-call class="transition-colors hover:text-stone">Teléfono: 11 3044-6269</a></li>
+          <li><a href="#" data-wa class="transition-colors hover:text-stone">WhatsApp: 11 3044-6269</a></li>
+          <li><a href="mailto:contacto@grupocpiletas.com.ar" class="transition-colors hover:text-stone">contacto@grupocpiletas.com.ar</a></li>
+          <li>Lunes a sábado, 8 a 19 h</li>
+        </ul>
+      </div>
+      <div class="text-sm">
+        <h2 class="font-semibold">Zona de cobertura</h2>
+        <p class="mt-3 text-mist">CABA · Zona Norte: Tigre, Nordelta, Pilar, Escobar, San Isidro, Vicente López · Zona Oeste: Ituzaingó, Castelar, Moreno, Gral. Rodríguez · Resto de GBA a consultar.</p>
+      </div>
+    </div>
+    <div class="mx-auto mt-12 max-w-7xl border-t border-line px-4 pt-6 text-xs text-mist sm:px-6 lg:px-8">
+      © <span data-year>2026</span> Grupo C Piletas. Todos los derechos reservados.
+    </div>
+  </footer>
+
+  <!-- ===================== WHATSAPP FLOTANTE ===================== -->
+  <div data-wa-float class="pointer-events-none translate-y-24 opacity-0 fixed bottom-5 right-4 z-50 flex items-center gap-3 transition duration-300 sm:bottom-6 sm:right-6">
+    <a href="tel:+5491130446269" data-call aria-label="Llamar al 11 3044-6269"
+       class="grid h-14 w-14 place-items-center rounded-full bg-stone text-ink shadow-lg shadow-black/40 transition hover:scale-105">
+      <svg class="h-6 w-6" aria-hidden="true"><use href="#i-tel"/></svg>
+    </a>
+    <a href="#" data-wa data-wa-msg="Hola Grupo C, quiero consultar por una pileta de hormigón."
+       class="inline-flex h-14 items-center gap-2 rounded-full bg-wa pl-4 pr-5 font-semibold text-[#062d16] shadow-lg shadow-black/40 transition hover:scale-105"
+       aria-label="Escribinos por WhatsApp">
+      <svg class="h-7 w-7" aria-hidden="true"><use href="#i-wa"/></svg>
+      <span class="text-sm">WhatsApp</span>
+    </a>
+  </div>
+
+  <script>
+    // Número de WhatsApp (formato internacional sin + ni 15)
+    const WA_NUMBER = "5491130446269";
+    const DEFAULT_MSG = "Hola Grupo C, quiero consultar por una pileta de hormigón.";
+    const waLink = (msg) => `https://wa.me/${WA_NUMBER}?text=${encodeURIComponent(msg || DEFAULT_MSG)}`;
+
+    // Todos los links con data-wa apuntan a wa.me con su mensaje predefinido
+    document.querySelectorAll("[data-wa]").forEach((el) => {
+      el.href = waLink(el.dataset.waMsg);
+      el.target = "_blank";
+      el.rel = "noopener";
+      // Punto de medición: disparar aquí la conversión de Google Ads / evento GA4
+      el.addEventListener("click", () => {
+        window.dataLayer && window.dataLayer.push({ event: "whatsapp_click", location: el.dataset.waMsg ? "cta" : "footer" });
+      });
+    });
+
+    // Header con fondo al hacer scroll
+    const header = document.querySelector("[data-header]");
+    const setHeader = () => header.toggleAttribute("data-scrolled", scrollY > 40);
+    // Clics en "Llamar" (links tel:)
+    document.querySelectorAll("[data-call]").forEach((el) => {
+      el.addEventListener("click", () => {
+        window.dataLayer && window.dataLayer.push({ event: "call_click" });
+      });
+    });
+
+    // Los botones flotantes aparecen cuando el CTA del hero sale de pantalla (evita botones repetidos en el primer pantallazo)
+    const fab = document.querySelector("[data-wa-float]");
+    const heroCta = document.querySelector("[data-hero-cta]");
+    new IntersectionObserver(([e]) => {
+      ["pointer-events-none", "translate-y-24", "opacity-0"].forEach((c) => fab.classList.toggle(c, e.isIntersecting));
+    }).observe(heroCta);
+
+    addEventListener("scroll", setHeader, { passive: true });
+    setHeader();
+
+    // Aparición suave al hacer scroll (respeta prefers-reduced-motion vía CSS)
+    const io = new IntersectionObserver((entries) => {
+      entries.forEach((e) => { if (e.isIntersecting) { e.target.classList.add("is-in"); io.unobserve(e.target); } });
+    }, { rootMargin: "0px 0px -8% 0px" });
+    document.querySelectorAll(".reveal").forEach((el) => io.observe(el));
+
+    // Formulario: validación simple + envío a WhatsApp
+    const form = document.getElementById("lead-form");
+    // El formulario está solo en la home: en las páginas internas no hay.
+    form && form.addEventListener("submit", (ev) => {
+      ev.preventDefault();
+      const data = new FormData(form);
+      const checks = [
+        [form.nombre, (data.get("nombre") || "").trim().length >= 2],
+        [form.telefono, (data.get("telefono") || "").replace(/\D/g, "").length >= 8],
+        [form.zona, !!data.get("zona")],
+        [form.querySelector("fieldset"), !!data.get("tipo")],
+      ];
+      let firstBad = null;
+      checks.forEach(([field, ok]) => {
+        const wrap = field.closest("div, fieldset");
+        wrap.querySelector("[data-error]").classList.toggle("hidden", ok);
+        if (field.setAttribute) field.setAttribute("aria-invalid", String(!ok));
+        if (!ok && !firstBad) firstBad = field;
+      });
+      if (firstBad) { (firstBad.focus ? firstBad : firstBad.querySelector("input")).focus(); return; }
+
+      const msg = `Hola Grupo C, quiero pedir una visita técnica.\n\nNombre: ${data.get("nombre").trim()}\nTeléfono: ${data.get("telefono").trim()}\nZona: ${data.get("zona")}\nPropiedad: ${data.get("tipo")}`;
+
+      // ► Si conectás un CRM / Google Sheets / webhook, hacé el fetch() acá antes de abrir WhatsApp
+      //   y disparar la conversión de Google Ads (gtag('event','conversion',{send_to:'AW-XXX/YYY'})).
+      window.dataLayer && window.dataLayer.push({ event: "lead_form_submit", zona: data.get("zona"), tipo: data.get("tipo") });
+
+      window.open(waLink(msg), "_blank", "noopener");
+    });
+
+    document.querySelector("[data-year]").textContent = new Date().getFullYear();
+  </script>
+
+  <!-- Medición de consultas (WhatsApp / formulario) para Google Ads -->
+  <script src="https://ads-ia-garfar.vercel.app/m.js" data-pagina="ef789f30-f82a-4ba6-b689-ede5f60a925b" defer></script>
+</body>
+</html>

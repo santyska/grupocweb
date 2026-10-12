@@ -225,6 +225,7 @@
           <p class="text-sm font-semibold uppercase tracking-[0.16em] text-aqua">Cómo trabajamos</p>
           <h2 class="mt-3 font-display text-3xl font-semibold leading-tight sm:text-5xl">Sabés qué pasa en cada etapa, y cuándo termina.</h2>
           <p class="mt-4 text-mist sm:text-lg">Antes de empezar firmás un cronograma con fechas por etapa. Si algo cambia, te enterás por nosotros, no preguntando.</p>
+          <a href="/como-trabajamos" class="mt-6 inline-flex min-h-12 items-center gap-2 rounded-full border border-aqua/50 px-6 text-sm font-semibold text-aqua transition hover:bg-aqua hover:text-ink">Ver cómo trabajamos en detalle</a>
           <!-- REEMPLAZAR FOTO: pileta propia (ideal: obra terminada o en etapa de hormigonado) -->
           <img src="https://images.unsplash.com/photo-1576013551627-0cc20b96c2a7?auto=format&fit=crop&w=1000&h=750&q=70"
                alt="Pileta de hormigón terminada con solárium de piedra" loading="lazy" width="1000" height="667"
@@ -450,7 +451,8 @@
         </div>
 
         <div class="mt-12 text-center">
-          <p class="text-mist">¿Otra duda?</p>
+          <a href="/preguntas-frecuentes" class="inline-flex min-h-12 items-center gap-2 rounded-full border border-aqua/50 px-6 text-sm font-semibold text-aqua transition hover:bg-aqua hover:text-ink">Ver todas las preguntas</a>
+          <p class="mt-8 text-mist">¿Otra duda?</p>
           <a href="#" data-wa data-wa-msg="Hola Grupo C, tengo una consulta sobre piletas de hormigón." class="mt-3 inline-flex min-h-12 items-center gap-2 rounded-full bg-aqua px-6 text-sm font-semibold text-ink transition hover:bg-stone">
             <svg class="h-4 w-4" aria-hidden="true"><use href="#i-wa"/></svg>
             Preguntanos por WhatsApp
@@ -469,6 +471,10 @@
           <span class="leading-none"><span class="block font-display text-xl font-bold tracking-tight">GRUPO C</span><span class="mt-1 block text-[10px] font-semibold tracking-[0.32em] text-aqua">PILETAS</span></span>
         </div>
         <p class="mt-4 max-w-xs text-sm text-mist">Construcción de piletas de hormigón armado llave en mano en Buenos Aires.</p>
+        <ul class="mt-4 space-y-2 text-sm text-mist">
+          <li><a href="/como-trabajamos" class="transition-colors hover:text-stone">Cómo trabajamos</a></li>
+          <li><a href="/preguntas-frecuentes" class="transition-colors hover:text-stone">Preguntas frecuentes</a></li>
+        </ul>
       </div>
       <div class="text-sm">
         <h2 class="font-semibold">Contacto</h2>
@@ -549,7 +555,8 @@
 
     // Formulario: validación simple + envío a WhatsApp
     const form = document.getElementById("lead-form");
-    form.addEventListener("submit", (ev) => {
+    // El formulario está solo en la home: en las páginas internas no hay.
+    form && form.addEventListener("submit", (ev) => {
       ev.preventDefault();
       const data = new FormData(form);
       const checks = [
