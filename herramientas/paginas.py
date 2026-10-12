@@ -14,6 +14,14 @@ PAGINAS = {
         "titulo": "Cómo trabajamos | Grupo C Piletas",
         "descripcion": "Cómo construimos tu pileta de hormigón armado: consulta, visita técnica sin cargo, presupuesto cerrado con cronograma por escrito, obra con avances semanales y entrega con garantía firmada.",
     },
+    "piletas-a-medida": {
+        "titulo": "Piletas de hormigón a medida | Grupo C Piletas",
+        "descripcion": "Piletas de hormigón armado a medida: de nado, con desnivel, con solárium, deck o borde atérmico. Proyecto y cálculo estructural para tu terreno, visita técnica sin cargo y garantía escrita.",
+    },
+    "piletas-en-countries": {
+        "titulo": "Piletas en countries y barrios cerrados | Grupo C Piletas",
+        "descripcion": "Piletas de hormigón armado en countries y barrios cerrados de zona norte y oeste: reglamento del barrio, accesos, suelos con napa alta y desniveles. Visita técnica sin cargo.",
+    },
     "preguntas-frecuentes": {
         "titulo": "Preguntas frecuentes | Grupo C Piletas",
         "descripcion": "Respuestas sobre piletas de hormigón armado: financiación y pagos por avance de obra, plazos, garantía escrita, zonas de trabajo y visita técnica sin cargo.",

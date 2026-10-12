@@ -4,3 +4,4 @@ cf_token
 *.zip
 .DS_Store
 Thumbs.db
+.wrangler/
